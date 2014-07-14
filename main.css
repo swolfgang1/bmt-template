@@ -1,0 +1,128 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  /* Make the masthead heading the same height as the navigation */
+}
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+#headerimg {
+  background-image: url("images/dumplings.jpg");
+  background-size: cover;
+  min-height: 300px;
+}
+
+#orderbtn, .col-sm-5 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.btn {
+  font-size: 21px;
+  padding: 14px 24px;
+  border: none;
+  margin: 25px 0 25px 0;
+  border-radius: 0;
+}
+
+.btn-success {
+  background-color: #2ecc71;
+}
+
+.btn-success:hover {
+  background-color: #27ae60;
+  border: none;
+}
+
+.btn-info {
+  background-color: #3498db;
+}
+
+.btn-info:hover {
+  background-color: #2980b9;
+}
+
+/* Supporting marketing content */
+.marketing {
+  min-height: 300px;
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+.marketing #aboutcopy {
+  margin-bottom: 28px;
+  padding-right: 20px;
+}
+.marketing #map {
+  border: 5px solid #95a5a6;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
